@@ -1,0 +1,13 @@
+.button_send{
+    font-family: Roboto;
+    margin: 2px 10px 0 0;
+    color: white;
+    background-color: #007BFF;
+    border: 0px solid;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    float: right;
+}
+.button_send:hover{
+    background-color: #0170e7;
+}

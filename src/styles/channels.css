@@ -1,0 +1,194 @@
+.channels{
+    width: 15%;
+    height: 100%;
+}
+.channels__title{
+    position: relative;
+    top:10px;
+    margin: 0 auto;
+    border-bottom: 2px solid;
+    border-radius: 2px;
+    border-color:  #DFE2E5;
+    width: 150px;
+    height: 60px;
+    word-wrap: break-word;
+}
+.chan{
+    margin: 20px 0 0 5px;
+    width: 100%;
+    height: 100%;
+}
+@media(max-width:1200px){
+    .card-channel{
+        font-size: 14px;
+        padding: 10px 0 10px 15px !important;
+    }
+    .find-btn{
+        margin: 5px 0px 0px 35px !important;
+    }
+    .create-btn{
+        margin: 5px 0px 0px 15px !important;
+    }
+    .find-channel-text{
+        width: 145px !important;
+        padding: 2px;
+        font-size: 13px;
+        border-radius: 4px !important;
+    }
+    .find-channel-text::placeholder{
+        font-size: 12px;
+    }
+}
+@media(max-width:1100px){
+    .find-channel-text{
+        width: 130px !important;
+        margin-left: 2px !important;
+    }
+    .find-btn{
+        margin: 5px 0px 0px 30px !important;
+    }
+    .create-btn{
+        margin: 5px 0px 0px 15px !important;
+    }
+}
+@media(max-width:992px){
+    .card-channel{
+        font-size: 13px !important;
+        padding: 8px 0 8px 8px !important;
+    }
+    .find-channel-text{
+        width: 110px !important;
+        padding: 2px;
+        font-size: 11px;
+        border-radius: 4px !important;
+    }
+    .find-btn{
+        margin: 5px 0px 0px 15px !important;
+    }
+    .create-btn{
+        margin: 5px 0px 0px 15px !important;
+    }
+}
+@media(max-width:767px){
+    .card-channel{
+        font-size: 11px !important;
+        padding: 6px 0 6px 5px !important;
+    }
+    .channels{
+        width: 25%;
+        height: 100%;
+    }
+    .channels__title{
+        font-size: 14px;
+        padding-left: 7px;
+        width: 90px !important;
+    }
+    .find-channel-text{
+        width: 85px !important;
+        padding: 2px;
+        font-size: 11px;
+        border-radius: 4px !important;
+    }
+    .find-channel-text::placeholder{
+        font-size: 9px;
+    }
+    .find-btn{
+        margin: 5px 0px 0px 0px !important;
+    }
+    .create-btn{
+        margin: 5px 0px 0px 15px !important;
+    }
+}
+@media(max-width:340px){
+    .card-channel{
+        padding: 6px 0 6px 0px !important;
+    }
+    .channels__title{
+        padding-left: 4px;
+    }
+    .find-channel-text{
+        width: 72px !important;
+        padding: 1px;
+        font-size: 11px;
+        border-radius: 4px !important;
+    }
+    .find-btn{
+        margin: 5px 0px 0px 0px !important;
+    }
+    .create-btn{
+        margin: 5px 0px 0px 5px !important;
+    }
+}
+.card-channel{
+    border-radius: 4px;
+    color:#464646;
+    padding: 15px 0 15px 20px;
+    display: flex;
+    font-size: 16px;
+    border:1px solid;
+    border-color: #DFE2E5;
+    width: 90%;
+    word-wrap: break-word;
+    background: transparent;
+    cursor: pointer;
+}
+.card-channel:hover{
+    background-color: #007BFF;
+    opacity: 95%;
+    color: white;
+}
+.active-channel{
+    color:white;
+    background-color: #007BFF;
+}
+.active-channel:hover{
+    color:white;
+    background-color: #007BFF;
+}
+.card-channel-find{
+    border-radius: 4px;
+    color:#464646;
+    padding: 15px 0 15px 20px;
+    display: flex;
+    font-size: 16px;
+    border:1px solid;
+    border-color: #ffe600;
+    width: 90%;
+    word-wrap: break-word;
+    background: transparent;
+    cursor: pointer;
+}
+.none-text{
+    border-color: red !important;
+}
+.find-channel-text{
+    border: 1px solid;
+    padding: 4px;
+    border-radius: 10px;
+    width: 170px;
+    margin-left: 7px;
+}
+.find-btn{
+    margin: 5px 0px 0px 45px;
+    background: transparent;
+    border: 0px;
+    width: 32px;
+    height: 32px;
+    background-image: url('../utils/search.png');
+    background-repeat: no-repeat;
+}
+.find-btn:hover{
+    opacity: 85%;
+}
+.create-btn{
+    margin: 0 0 0 20px;
+    background: transparent;
+    border: 0px;
+    width: 32px;
+    height: 32px;
+    background-image: url('../utils/plus.png');
+    background-repeat: no-repeat;
+}
+.create-btn:hover{
+    opacity: 85%;
+}

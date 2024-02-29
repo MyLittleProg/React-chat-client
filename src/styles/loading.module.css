@@ -1,0 +1,16 @@
+.load{
+    margin: 45vh auto;
+    width: 75px;
+    height: 75px;
+    border:2px dashed;
+    border-radius: 50%;
+    animation: rotate 1s infinite;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
